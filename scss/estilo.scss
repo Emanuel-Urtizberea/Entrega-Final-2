@@ -26,14 +26,16 @@ body {
     resize: none;
   }
 
-  $fondos:#0f840f;
-  $fondos2:#f6b335;
-  $fondos3:#ffff43;
+  $fondos:#587558;
+  $fondos2:#EDB770;
   $letras: #161111;
   
   
 body{
       background-color: $fondos2;
+}
+.dropdown-menu{
+  background-color: #587558;
 }
 header{
     background-color: $fondos;
@@ -46,7 +48,7 @@ nav{
 section{
     background-color: $fondos2;
     h1{
-        color: $dondos3;
+        color: $fondos;
         font-family: 'Staatliches', cursive;
         
     }
@@ -66,5 +68,5 @@ footer{
     }
 }
 .card{
-  background-color: #f6b335;
+  background-color: $fondos2
 }
